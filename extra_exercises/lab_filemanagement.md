@@ -128,5 +128,13 @@ shred -u -v -z password.txt
 ## 📊 **PART 6: Reporting and Ownership**
 
 6.1 Display metadata (size, timestamps, inode number, etc.) for each `.log` file using a command-line tool.  
+
+```bash
+find . -type f -name "*.log" -exec stat {} \; > stat.txt
+```
+
 6.2 Count how many files in `/srv/projects/` are owned by your current user.
+```bash
+find . -type f -user "$USER" | wc 
+```
 
