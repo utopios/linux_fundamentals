@@ -53,3 +53,57 @@
    - Echo back every input before quitting
 
 ---
+
+---
+
+## 🔧 **Exercise 5 – Write Your First Function**
+
+**Objective:** Define and call a simple function.
+
+**Instructions:**
+
+1. Write a script called `hello_func.sh`
+2. Inside it:
+   - Define a function `say_hello` that prints a greeting
+   - Ask for the user's name and call the function
+
+---
+
+## 🔄 **Exercise 6 – Use a Function in a Loop**
+
+**Objective:** Combine loops and functions.
+
+**Instructions:**
+
+1. Create a script `countdown.sh`
+2. Define a function called `countdown` that:
+   - Takes a number as an argument
+   - Prints numbers down to 1 with a delay
+3. Call it with 5, 10, and 3
+
+---
+
+## 📂 **Exercise 7 – Check If File Exists**
+
+**Objective:** Practice file tests.
+
+**Instructions:**
+
+1. Write a script called `file_check.sh`
+2. Ask the user to input a file path
+3. If the file exists and is readable, print "File is OK"
+4. If it doesn't exist or can't be read, print an error
+
+---
+
+## 📁 **Exercise 8 – Loop Through Files in a Directory**
+
+**Objective:** Loop through real files.
+
+**Instructions:**
+
+1. Create a script `filelist.sh`
+2. Ask the user to enter a directory path
+3. Use a loop to print the size of every `.txt` file in that directory
+
+---
